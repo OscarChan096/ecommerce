@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  background-color: #E8E8E8;
+}
+
+body::-webkit-scrollbar {
+  width: 13px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #005585;    /* color of the scroll thumb */
+  border: 3px outset #0066a1;  /* creates padding around scroll thumb */
+}

@@ -1,0 +1,41 @@
+.container{
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .grid{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.img-product{
+    display: flex;
+    align-items: center;
+}
+
+.details{
+    position: absolute;
+    left: 50%;
+}
+
+.details .product-name{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.details .price{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+.details button{
+    margin-top: 30px;
+}
