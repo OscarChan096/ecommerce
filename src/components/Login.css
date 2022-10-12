@@ -1,0 +1,54 @@
+.bg{
+    background-color: #005585;
+}
+
+.mg-t{
+    margin-top: 7%;
+}
+
+.ts{
+    font-size: 2rem;
+}
+
+div.container .content{
+    padding: 50px;
+}
+
+.logo{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: default;
+    user-select: none;
+}
+
+h3{
+    color: white;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+div.content button{
+    margin: 10px;
+}
+
+div.content .form a{
+    border-radius: 0;
+    margin: 5px;
+    
+}
+
+div.content .form a:hover{
+    background-color: transparent;
+    text-decoration-line:underline;
+    border-radius: 0;
+}

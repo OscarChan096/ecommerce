@@ -16,6 +16,7 @@ nav{
     text-align: center;
     padding-left: 20px;
     font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .text-nova{
@@ -92,4 +93,23 @@ button{
 
 button:active, li:active, a:active{
     background-color: rgb(0, 100, 150);
+}
+
+div.user a{
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+}
+
+div.user a:hover {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+}
+
+.alert{
+    background-color: #11181e;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: small;
 }

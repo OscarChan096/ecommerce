@@ -27,12 +27,13 @@ const Navbar = () => {
     }
 
     const submit = () => {
-        //console.log(search);
-        products.map(product => {
+        let count = 0;
+        products.map((product) => {
             if(product.product_name === search){
                 alert('producto encontrado')
             }
         });
+        //alert(count);
     }
 
     return (

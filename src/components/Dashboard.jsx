@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Details from './Details'
+import Navbar from './navbar';
 
 import './Dashboard.css';
 
@@ -29,6 +30,7 @@ export default function Dashboard() {
 
     return (
         <>
+        <Navbar />
             {
                 products.length === 0 ? (
                     <h3>Cargando información... ♨️</h3>
